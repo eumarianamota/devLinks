@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: #E9E9E1;
+  font: 14pt normal arial;
+  font-family: arial;
+  background-image: linear-gradient(to right, #2A407E, #151931);
+}
+
+.perfil{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.foto{
+  border-radius: 100px;
+}
+
+.links{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+button{
+  font-size: 20px;
+  width: 600px;
+  height: 60px;
+  color: #E9E9E1;
+  background-color: rgba(252, 252, 252, 0.062);
+  backdrop-filter: blur(10px);
+  border-style: solid;
+  border-color: #E9E9E1;
+  border-radius: 10px;
+}
+
+button:hover{
+  background: none;
+}
+
+.redesSociais{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 50px;
+}
+
+.github-icon:hover,
+.insta-icon:hover,
+.youtube-icon:hover,
+.pin-icon:hover{
+  opacity: 0.6;
+  transition: 0.3s;
+}

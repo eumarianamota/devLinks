@@ -30,8 +30,8 @@ body{
 
 button{
   font-size: 20px;
-  width: 400px;
-  height: 60px;
+  width: 45vw;
+  height: 10vh;
   color: #E9E9E1;
   background-color: rgba(252, 252, 252, 0.062);
   backdrop-filter: blur(10px);
